@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: #4ED17B;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+    border-radius: 2px;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    height: 40px;
+    width: 55px;
+}
+.btn_image {
+    height: 19px;
+    width: 23px;
+    color: #ffffff;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    overflow: hidden;
+    max-width: 300px;
+    margin: 20px;
+    
+}
+.card-image{
+    width: 300px;
+    height: 205px;
+    object-fit: cover;
+}
+.card-text{
+    margin: 30px 25px 30px 25px;
+}
+
+.description {
+    color: #666666;
+}
+.card-title{
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.card-title{
+    font-size: 20px;
+}
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.prices_currency {
+    font-weight: normal;
+    font-size: 20px;
+    color:#333333;
+}
+.prices_digital {
+    font-weight: bold;
+    font-size: 35px;
+}
